@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 1remqa;
+}
+
+main #top-bar,#intro-img{
+    display: flex;
+    flex-direction: column;
+}
+
+#top-bar {
+    background: rgb(75,52,52);
+    background: linear-gradient(180deg, rgba(75,52,52,1) 0%, rgba(121,90,90,1) 90%, rgba(187,141,141,1) 100%);
+    font-family: 'Noto Sans', sans-serif;
+    height: 7.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+#intro-img {
+    background-color: #f7f7f6;
+    margin-bottom: 1rem;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50vw;
+}
+
+hr {
+    margin: 0;
+}
+
+#tribute-intro {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#tribute-info {
+    width: 90vw;
+    margin: 1rem 0 1rem 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#tribute-info, p {
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+img {
+    display: block;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#miyazaki {
+    width: 90vw;
+    margin: 1rem auto;
+}
+
+#hayao {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    height: 50rem;
+    padding: 0;
+    margin: 0;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    max-width: 40vw;
+    object-fit: cover;
+}
+
+#ghiblihayao {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    clear: both;
+    font-size: 3rem;
+    width: 90vw;
+    text-align: justify;
+    margin: 1rem auto;
+}
+
+#list {
+    width: 90vw;
+    text-align: justify;
+    margin: 1rem auto;
+    font-size: 1.8rem;
+}
+
+footer {
+    background: rgb(75,52,52);
+    background: linear-gradient(360deg, rgba(75,52,52,1) 0%, rgba(121,90,90,1) 90%, rgba(187,141,141,1) 100%);
+    font-family: 'Noto Sans', sans-serif;
+    height: 7.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#end {
+    text-align: center;
+    margin: 1rem auto;
+    color: #fafafa;
+}
+
+footer * {
+    color: #fafafa;
+}
+
+@media only screen and (max-width: 601px) {
+   
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    #img-div {
+        width: 90vw;
+        text-align: justify;
+    }
+
+    #hayao {
+        min-width: 55vw;
+    }
+
+  }
+
+
+
+
